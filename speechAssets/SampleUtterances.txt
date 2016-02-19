@@ -1,0 +1,27 @@
+GetRecipe what is the recipe for {Drink}
+GetRecipe what's the recipe for {Drink}
+GetRecipe what is in a {Drink}
+GetRecipe what's in a {Drink}
+GetRecipe how to make a {Drink}
+GetRecipe how to make an {Drink}
+GetRecipe what do I need to make a {Drink}
+GetRecipe what do I need to make an {Drink}
+
+AskRecipe can I make a {Drink}
+AskRecipe can I make an {Drink}
+AskRecipe do I have enough for a {Drink}
+AskRecipe do I have enough for an {Drink}
+
+AskRecipe what else do I need to make a {Drink}
+AskRecipe what else do I need to make an {Drink}
+
+AddInventory I bought a bottle of {Ingredient}
+AddInventory I bought some {Ingredient}
+AddInventory I have some {Ingredient}
+AddInventory I have {Ingredient}
+
+RemoveInventory I finished a bottle of {Ingredient}
+RemoveInventory I am done with {Ingredient}
+RemoveInventory I am out of {Ingredient}
+RemoveInventory I'm out of {Ingredient}
+RemoveInventory I'm out of {Ingredient} now

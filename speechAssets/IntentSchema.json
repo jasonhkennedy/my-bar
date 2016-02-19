@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "intent": "GetRecipe",
+      "slots": [
+        {
+          "name": "Drink",
+          "type": "LIST_OF_DRINKS"
+        }
+      ]
+    },
+    {
+      "intent": "AskRecipe",
+      "slots": [
+        {
+          "name": "Drink",
+          "type": "LIST_OF_DRINKS"
+        }
+      ]
+    },
+    {
+      "intent": "AddInventory",
+      "slots": [
+        {
+          "name": "Ingredient",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ]
+    },
+    {
+      "intent": "RemoveInventory",
+      "slots": [
+        {
+          "name": "Ingredient",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
