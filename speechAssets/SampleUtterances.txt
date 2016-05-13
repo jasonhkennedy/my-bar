@@ -4,24 +4,88 @@ GetRecipe what is in a {Drink}
 GetRecipe what's in a {Drink}
 GetRecipe how to make a {Drink}
 GetRecipe how to make an {Drink}
-GetRecipe what do I need to make a {Drink}
-GetRecipe what do I need to make an {Drink}
 
 AskRecipe can I make a {Drink}
 AskRecipe can I make an {Drink}
 AskRecipe do I have enough for a {Drink}
 AskRecipe do I have enough for an {Drink}
-
+AskRecipe what do I need to make a {Drink}
+AskRecipe what do I need to make an {Drink}
 AskRecipe what else do I need to make a {Drink}
 AskRecipe what else do I need to make an {Drink}
 
-AddInventory I bought a bottle of {Ingredient}
-AddInventory I bought some {Ingredient}
-AddInventory I have some {Ingredient}
-AddInventory I have {Ingredient}
+AddIngredient add {Ingredient}
+AddIngredient add some {Ingredient}
+AddIngredient to add {Ingredient}
+AddIngredient I bought a bottle of {Ingredient}
+AddIngredient I bought a bottle of {Ingredient} today
+AddIngredient I bought some {Ingredient}
+AddIngredient I bought some {Ingredient} today
+AddIngredient I have some {Ingredient}
+AddIngredient I have {Ingredient}
+AddIngredient I've got some {Ingredient}
+AddIngredient I've got {Ingredient}
+AddIngredient I've got {Ingredient} now
+AddIngredient I've got a bottle of {Ingredient} now
 
-RemoveInventory I finished a bottle of {Ingredient}
-RemoveInventory I am done with {Ingredient}
-RemoveInventory I am out of {Ingredient}
-RemoveInventory I'm out of {Ingredient}
-RemoveInventory I'm out of {Ingredient} now
+RemoveIngredient remove {Ingredient}
+RemoveIngredient to remove {Ingredient}
+RemoveIngredient I finished a bottle of {Ingredient}
+RemoveIngredient I am done with {Ingredient}
+RemoveIngredient I'm done with {Ingredient}
+RemoveIngredient I am out of {Ingredient}
+RemoveIngredient I'm out of {Ingredient} now
+
+AskIngredients about my ingredients
+AskIngredients about what I have
+AskIngredients about what I have now
+AskIngredients about what I've got
+AskIngredients about what I've got now
+AskIngredients about what I have added
+AskIngredients about what I've added
+AskIngredients for my ingredients
+AskIngredients for what I have
+AskIngredients for what I have now
+AskIngredients for what I've got
+AskIngredients for what I've got now
+AskIngredients for what I have added
+AskIngredients for what I've added
+AskIngredients what I have
+AskIngredients what I have now
+AskIngredients what I have right now
+AskIngredients what I have currently
+AskIngredients what ingredients I have
+AskIngredients what ingredients I have right now
+AskIngredients what ingredients I have currently
+AskIngredients what ingredients I've got
+AskIngredients what ingredients I've got right now
+AskIngredients what ingredients I've got currently
+AskIngredients what I've got
+AskIngredients what I've got right now
+AskIngredients what I've got currently
+
+AskIngredient do I have {Ingredient}
+AskIngredient do I have some {Ingredient}
+AskIngredient do I have any {Ingredient}
+AskIngredient do I have {Ingredient} in my bar
+AskIngredient do I have {Ingredient} now
+AskIngredient do I have {Ingredient} right now
+AskIngredient do I have {Ingredient} currently
+AskIngredient if I have {Ingredient}
+AskIngredient if I have some {Ingredient}
+AskIngredient if I have any {Ingredient}
+AskIngredient if I have {Ingredient} in my bar
+AskIngredient if I have {Ingredient} now
+AskIngredient if I have {Ingredient} right now
+AskIngredient if I have {Ingredient} currently
+AskIngredient if I've got {Ingredient}
+AskIngredient if I've got some {Ingredient}
+AskIngredient if I've got any {Ingredient}
+AskIngredient if I've got {Ingredient} in my bar
+AskIngredient if I've got {Ingredient} now
+AskIngredient if I've got {Ingredient} right now
+AskIngredient if I've got {Ingredient} currently
+
+AskRecommendation what a good {Spirit} drink is
+AskRecommendation for a {Spirit} drink
+AskRecommendation for a {Spirit} drink I can make

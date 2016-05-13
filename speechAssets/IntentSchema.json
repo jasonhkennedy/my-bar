@@ -19,7 +19,7 @@
       ]
     },
     {
-      "intent": "AddInventory",
+      "intent": "AddIngredient",
       "slots": [
         {
           "name": "Ingredient",
@@ -28,7 +28,19 @@
       ]
     },
     {
-      "intent": "RemoveInventory",
+      "intent": "RemoveIngredient",
+      "slots": [
+        {
+          "name": "Ingredient",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ]
+    },
+    {
+      "intent": "AskIngredients"
+    },
+    {
+      "intent": "AskIngredient",
       "slots": [
         {
           "name": "Ingredient",

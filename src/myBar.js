@@ -13,27 +13,27 @@ var AlexaSkill = require('./AlexaSkill'),
     eventHandlers = require('./eventHandlers'),
     intentHandlers = require('./intentHandlers');
 
-var APP_ID = undefined;//replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = 'amzn1.echo-sdk-ams.app.346f9690-c0a4-482c-aeb6-700ab72d0f8a';
 var skillContext = {};
 
 /**
- * ScoreKeeper is a child of AlexaSkill.
+ * MyBar is a child of AlexaSkill.
  * To read more about inheritance in JavaScript, see the link below.
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
  */
-var ScoreKeeper = function () {
+var MyBar = function () {
     AlexaSkill.call(this, APP_ID);
     skillContext.needMoreHelp = true;
 };
 
 
 // Extend AlexaSkill
-ScoreKeeper.prototype = Object.create(AlexaSkill.prototype);
-ScoreKeeper.prototype.constructor = ScoreKeeper;
+MyBar.prototype = Object.create(AlexaSkill.prototype);
+MyBar.prototype.constructor = MyBar;
 
-eventHandlers.register(ScoreKeeper.prototype.eventHandlers, skillContext);
-intentHandlers.register(ScoreKeeper.prototype.intentHandlers, skillContext);
+eventHandlers.register(MyBar.prototype.eventHandlers, skillContext);
+intentHandlers.register(MyBar.prototype.intentHandlers, skillContext);
 
-module.exports = ScoreKeeper;
+module.exports = MyBar;
 

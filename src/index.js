@@ -9,9 +9,9 @@
 */
 
 'use strict';
-var ScoreKeeper = require('./scoreKeeper');
+var MyBar = require('./myBar');
 
 exports.handler = function (event, context) {
-    var scoreKeeper = new ScoreKeeper();
-    scoreKeeper.execute(event, context);
+    var myBar = new MyBar();
+    myBar.execute(event, context);
 };
